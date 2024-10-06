@@ -1,4 +1,4 @@
-FROM golang:alpine AS builder
+FROM golang:1.22-alpine AS builder
 ARG GIT_TAG=v1.2.1
 ENV GO111MODULE=on
 WORKDIR /build
